@@ -1,0 +1,151 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 0.8rem;
+}
+
+h5 {
+    font-size: 0.7rem;
+}
+
+.bio {
+    height: 100vh;
+    background-color: #42cbf4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio img {
+    width: 80%;
+    height:40%;
+    border-radius: 50%;
+    max-width: 256px;
+}
+
+.bio h2 {
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+}
+
+.bio h3 {
+    font-family: 'Merriweather', serif;
+    color: #b2ebf2;
+}
+
+.about {
+    padding: 4%;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.5;
+}
+
+.profile img {
+    width: 100%;
+    height: auto;
+}
+
+.profile h3 {
+    font-size: 1rem;
+}
+
+.profile a {
+    text-decoration: none;
+    color: green;
+}
+
+.about h2 {
+    color: #f47742;
+    text-decoration: underline #f47742 dashed;
+}
+
+.about h3 {
+    color: #757575
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 4%;
+}
+
+.projects h2 {
+    color: #f47742;
+    text-decoration: underline #f47742 dashed;
+}
+
+.proj {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.report {
+    align-self: center;
+    color: #757575;
+    text-align: justify;
+}
+
+.report h3 {
+    color: #212121;
+}
+
+.interest {
+    padding: 4%;
+}
+
+.interest h2 {
+    color: #f47742;
+    text-decoration: underline #f47742 dashed;
+}
+
+.tech {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #212121;
+}
+
+.tech img {
+    width: 128px;
+    height: 128px;
+}
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    padding: 4%;
+    color: green;
+}
+
+.contact h2 {
+    color: #f47742;
+    text-decoration: underline #f47742 dashed;
+}
+
+@media screen and (min-width: 380px) {
+    html {
+        font-size: calc(14px + (20 - 14)*(100vw - 380px)/(800 - 400));
+    }
+}
