@@ -56,8 +56,8 @@ h5 {
 }
 
 .profile img {
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 80%;
 }
 
 .profile h3 {
@@ -147,5 +147,15 @@ h5 {
 @media screen and (min-width: 380px) {
     html {
         font-size: calc(14px + (20 - 14)*(100vw - 380px)/(800 - 400));
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .profile {
+        flex-wrap: wrap;
+    }
+
+    .profile img {
+        order: -1;
     }
 }
